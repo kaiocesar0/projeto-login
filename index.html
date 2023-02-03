@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <main id="container">
+        <section id="conteudo">   
+                <div class="imagem">
+                    <img class="retrato"
+                    src="imagens/retrato-borb.jpg" alt="borboleta">
+                    <img class="horizont" src="imagens/horizont-borb.jpg" alt="borboleta">
+                </div>
+                <div class="login">
+                    <h1>Login</h1>
+                    <p>Olá, faça seu login para começar:</p>
+                    <form action=".php" method="post">
+            
+                        <p><label for="iemail">Nome: </label><input type="email" name="email" id="iemail"></p>
+            
+                        <p><label for="isenha">Senha:</label>
+                            <input type="password" name="senha" id="isenha">
+                        </p>
+            
+                        <p ><input class="botao" type="submit" value="Entrar"></p>
+            
+                    </form>
+                </div>
+        </section>
+    </main>
 </body>
 </html>
