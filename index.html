@@ -20,7 +20,6 @@
     !function(a,b,c){if('object'!=typeof c){var d=function(){d.c(arguments)};d.q=[],d.c=function(a){d.q.push(a)},a.Bulldesk=d;var e=b.createElement('script');e.type='text/javascript',e.async=!0,e.id='bulldesk-analytics',e.src='https://static.bulldesk.com.br/bulldesk.js';var f=b.getElementsByTagName('script')[0];f.parentNode.insertBefore(e,f)}}(window,document,window.Bulldesk);
   </script>
 
-
 </head>
 <body>
     <main>
@@ -31,8 +30,15 @@
             <div id="formulario">
                 <h1>login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="login.php" method="post" autocomplete="on"> 
+                <form action="#" method="post" autocomplete="on"> 
     
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input placeholder="Seu nome" type="text" name="name" id="iname" autocomplete="name">
+                        <label for="iname">
+                        </label>
+                    </div>
+
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
                         <input placeholder="Seu e-mail" type="email" name="email" id="iemail" autocomplete="email">
